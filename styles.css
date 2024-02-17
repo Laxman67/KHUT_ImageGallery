@@ -1,0 +1,13 @@
+:root {
+  font-family: "Quicksand", sans-serif;
+  min-height: 100vh;
+  max-width: 1280px;
+  background-color: beige;
+  margin: 0px auto;
+}
+
+body {
+  margin: 0px !important;
+  background-color: beige;
+  border: 1px solid #ddd;
+}
