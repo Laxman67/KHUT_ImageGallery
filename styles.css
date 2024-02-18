@@ -97,7 +97,7 @@ nav ul li a {
 
 @keyframes appear {
   from {
-    opacity: 0;
+    opacity: 0.6;
     top: -100px;
   }
 
@@ -126,14 +126,59 @@ nav ul li a {
   font-size: 3em;
   font-weight: bold;
   position: relative;
-  animation: appear 2s ease-in-out 0s forwards;
+  animation: appear 2s ease-in-out 5s forwards;
 }
 .banner .heading small {
   font-size: 24px;
 }
 
+.main-text {
+  font-size: 18px;
+  padding: 12px;
+}
+
+.sub-text {
+  display: flex;
+}
+.sub-text div {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  color: beige;
+}
+.sub-text .red {
+  background-color: salmon;
+}
+.sub-text .yellow {
+  background-color: rgb(233, 157, 17);
+}
+.sub-text .green {
+  background-color: rgb(103, 187, 103);
+}
+
+.quote {
+  display: block;
+  background-color: rgba(158, 158, 153, 0.37);
+  padding: 50px;
+  text-align: center;
+  font-style: italic;
+}
+
+.quote::before {
+  content: open-quote;
+  /* display: inline-block;    */
+  color: darkgray;
+  font-size: 32px;
+}
+.quote::after {
+  content: close-quote;
+  /* display: inline-block;    */
+  color: darkgray;
+  font-size: 32px;
+}
+
 .footer {
-  position: absolute;
+  position: relative;
   left: 0;
   bottom: 0;
   background-color: #222222;
