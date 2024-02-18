@@ -340,4 +340,13 @@ input[type="submit"]:hover {
   nav ul li {
     text-align: center;
   }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .container .map {
+    margin: 0px;
+    object-fit: cover;
+  }
 }
